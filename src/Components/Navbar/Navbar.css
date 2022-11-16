@@ -1,0 +1,63 @@
+.main_nav{
+    width: 100%;
+    height: 4.5rem;
+    background-color: #7c57b4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px;
+    position: relative;
+}
+.logo p{
+    font-size: 32px;
+    cursor: pointer;
+}
+.menu_btn p{
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+    font-weight: 400;
+}
+.menu_box{
+    position: absolute;
+    width: 18rem;
+    overflow: hidden;
+    height: 100vh;
+    background-color: rgba(0, 0, 0,1);
+    color: white;
+    display: flex;
+    padding: 12px;
+    align-items: center;
+    flex-direction: column;
+    top: 77px;
+    left: 0px;
+    transition: all 300ms;
+    box-shadow: 5px 0px 100px 800px rgba(0, 0, 0, .3);
+    z-index: 1;
+}
+.menu_box_hidden{
+    position: absolute;
+    width: 0rem;
+    overflow: hidden;
+    height: 100vh;
+    background-color: rgba(0, 0, 0,1);
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    top: 77px;
+    word-break: keep-all;
+    left: 0px;
+    transition: all 300ms;
+    z-index: 1;
+}
+.close{
+    width: 100%;
+    position: relative;
+}
+.close p{
+    cursor: pointer;
+}
+.menu_options_btn{
+    cursor: pointer;
+}
